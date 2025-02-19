@@ -10,16 +10,16 @@ FlightTrack to aplikacja do śledzenia statusów lotów w czasie rzeczywistym. �
 ---
 
 ## 🚀 **Technologie**
-✅ ASP.NET Core 
-✅ C#  
-✅ RESTfull API (aviationstack API)
-✅ Docker - deploy & DevOps na render.com
+- ✅ ASP.NET Core 
+- ✅ C#  
+- ✅ RESTfull API (aviationstack API)
+- ✅ Docker - deploy & DevOps na render.com
 
 ---
 
 ## 📥 **Instalacja (Lokalnie)**
 0. **Pamiętaj aby przygotować również aplikację frontendową!**
-➡ [https://github.com/karolchoron/FindFlightsAPIServer](https://github.com/karolchoron/FindFlights)  
+<br> ➡ [https://github.com/karolchoron/FindFlightsAPIServer](https://github.com/karolchoron/FindFlights)  
 
 1. **Klonuj repozytorium**  
 2. **Dodaj klucze aviationstack API do secrets.json**
