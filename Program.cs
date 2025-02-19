@@ -16,13 +16,12 @@ if (string.IsNullOrEmpty(apiKey))
 // Rejestracja API Key w DI
 builder.Services.AddSingleton(new AviationStackSettings(apiKey));
 
-
 // Konfiguracja CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:5228") // Adres aplikacji frontend HTTP
+        policy.WithOrigins("https://findflights.onrender.com") // Adres aplikacji frontend HTTP
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
