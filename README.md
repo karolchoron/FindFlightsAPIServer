@@ -25,6 +25,7 @@ FlightTrack  is a real-time flight status tracking application. 🛫
 
 1. **Clone the repository**  
 2. **Add aviationstack API keys to the secrets.json**
+
 Settings to allow frontend connection:
 ```
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5240/") });
@@ -87,6 +88,7 @@ FlightTrack to aplikacja do śledzenia statusów lotów w czasie rzeczywistym. �
 
 1. **Klonuj repozytorium**  
 2. **Dodaj klucze aviationstack API do secrets.json**
+
 Ustawienia do zezwolenia połączenia frontendu:
 ```
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5240/") });
